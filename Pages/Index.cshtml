@@ -1,0 +1,126 @@
+﻿@page
+@model PhoneBook.Pages.Home.IndexModel
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneBookAI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+<header class="hero-section">
+    <div class="nav-bar">
+        <div class="logo">
+            <a href="https://github.com/OKarpacz/PhoneBook"><img src="./images/logo_AI_converted-removebg-preview.png" alt="Logo"/></a>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/OKarpacz" target="_blank"><img src = "images/icons8-github.svg"/></a>
+            <a href="https://www.linkedin.com/in/olgierd-karpacz/" target="_blank"><img src = "images/icons8-linkedin.svg"/></a>
+        </div>
+    </div>
+    <div class="hero-content">
+        <h1>CONNECT.</h1>
+        <h1>SEARCH.</h1>
+        <h1>DISCOVER.</h1>
+    </div>
+    <div class="back">
+        <img src="~/images/background.png" alt="Background" class="back-image">
+    </div>
+</header>
+
+
+<div class="scrolling-container">
+    <div class="scrolling-content">
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+        <span class="icon"> PhoneBookAI</span>
+    </div>
+</div>
+
+
+<section id="llm-section" class="llm-section">
+    <h2>Ask the AI</h2>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-container">
+        <input type="text" id="commandInput" placeholder="Enter a command...">
+            <button id="submitCommand">Submit</button>
+    </div>
+</section>
+<section class="how-it-works">
+    <div class="content-wrapper">
+        <div class="text-content">
+            <h2>How it works</h2>
+            <p>Explore our seamless process to connect, search, and discover with ease.</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="icon">🔄</div>
+                    <h3>Real-Time Interaction</h3>
+                    <p>Easily follow the conversation with clear, organized text bubbles, making each interaction feel like a seamless chat with a real assistant.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📞</div>
+                    <h3>Reinvent the Phone</h3>
+                    <p>Transform your communication with an app that redefines contact management, offering smarter, streamlined features for a fresh experience.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🔍</div>
+                    <h3>Making Requests</h3>
+                    <p>Quickly find the contact details you need with AI-driven search, designed to make retrieving information faster and easier.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📊</div>
+                    <h3>Handling Responses</h3>
+                    <p>ffortlessly organize and view contact lists, with a clean layout that makes reviewing and editing details straightforward.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <!-- About Me Section -->
+        <div class="footer-section about-me">
+            <h3>About Me</h3>
+            <p>Hi, I'm Olgierd Karpacz, a passionate web developer and tech enthusiast. I enjoy creating modern, user-friendly websites and exploring new web technologies. Let's connect!</p>
+        </div>
+
+        <div class="footer-section newsletter">
+            <h3>Send me an email</h3>
+            <form>
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit"> Send </button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; Olgierd Karpacz</p>
+    </div>
+</footer>
+
+<script src="~/js/script.js"></script>
+</body>
+</html>

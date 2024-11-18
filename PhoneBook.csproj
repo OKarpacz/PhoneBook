@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNetEnv" Version="3.1.1" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+          <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+        <PackageReference Include="System.Net.Http.Json" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="PhoneBook\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\appsettings.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\Debug\net8.0\PhoneBook.sourcelink.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\Debug\net8.0\staticwebassets.build.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\Debug\net8.0\staticwebassets.development.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\Debug\net8.0\staticwebassets.pack.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\PhoneBook.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="PhoneBook\Pages\Index.cshtml" />
+    </ItemGroup>
+
+</Project>

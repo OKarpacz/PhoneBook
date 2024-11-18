@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\icons8-github.svg",
+      "PackagePath": "staticwebassets\\images\\icons8-github.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\icons8-linkedin.svg",
+      "PackagePath": "staticwebassets\\images\\icons8-linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\logo_AI_converted-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\logo_AI_converted-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PhoneBook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PhoneBook.props",
+      "PackagePath": "build\\PhoneBook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PhoneBook.props",
+      "PackagePath": "buildMultiTargeting\\PhoneBook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PhoneBook.props",
+      "PackagePath": "buildTransitive\\PhoneBook.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,5 @@
+﻿#3.Refactor the code to make it more efficent#
+#4.Check the security factor of the web app, Check SQL injection#
+#9.Testowanie różnych promptów main(Name's)
+#15.send an email#
+#Dodanie favicon#
