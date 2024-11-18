@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "thQe6TCgI0nfv7xDbnu1GOUwfERWlW+l8MoP7epif1c=",
+  "Hash": "BVgc8SNWtgom8gmHCB+yW5YVmHRyNJpsP2K0PAMgMDI=",
   "Source": "PhoneBook",
   "BasePath": "_content/PhoneBook",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PhoneBook\\wwwroot",
       "Source": "PhoneBook",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\css\\style.css",
       "SourceId": "PhoneBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\background.png",
+      "Identity": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\images\\background.png",
       "SourceId": "PhoneBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "RelativePath": "images/background.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\background.png"
     },
     {
-      "Identity": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\icons8-github.svg",
+      "Identity": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\images\\icons8-github.svg",
       "SourceId": "PhoneBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "RelativePath": "images/icons8-github.svg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons8-github.svg"
     },
     {
-      "Identity": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\icons8-linkedin.svg",
+      "Identity": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\images\\icons8-linkedin.svg",
       "SourceId": "PhoneBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "RelativePath": "images/icons8-linkedin.svg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons8-linkedin.svg"
     },
     {
-      "Identity": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\images\\logo_AI_converted-removebg-preview.png",
+      "Identity": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\images\\logo_AI_converted-removebg-preview.png",
       "SourceId": "PhoneBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "RelativePath": "images/logo_AI_converted-removebg-preview.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo_AI_converted-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\js\\script.js",
       "SourceId": "PhoneBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\PhoneBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\olgie\\RiderProjects\\PhoneBook\\wwwroot\\",
       "BasePath": "_content/PhoneBook",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
