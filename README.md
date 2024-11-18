@@ -12,12 +12,12 @@
 
 ## Project Overview
 
-**PhoneBook AI** is a contact management tool with built-in AI capabilities to enhance the user experience. This project is designed to help users add, update, search, and manage contacts within a secure and efficient application. Additionally, it includes an AI component for advanced contact recommendations or natural language insights about contacts.
+**PhoneBook AI** is a contact management tool with built-in AI capabilities to enhance the user experience. This project is designed to help users add, update, search, and manage contacts within a secure and efficient application.
 
 ## Key Features
 
 - **Contact Management**: Add, edit, delete, and search for contacts with ease.
-- **AI-Powered Insights**: Utilizes AI to provide enhanced recommendations or search capabilities (powered by OpenAI).
+- **AI-Powered Insights**: Utilizes AI to provide enhanced recommendations or search capabilities.
 - **Responsive Design**: User-friendly interface that works on desktop and mobile.
 - **Data Security**: Run the application locally to maintain control over your data.
 - **Extensibility**: Modular service structure allows for easy addition of features or integrations.
@@ -48,7 +48,7 @@
 
 ## Disclaimer
 
-There is a possibility that you need to create your own .env file for the application to work.
+There is a possibility that you need to create your own .env file for the api to work.
 
 1. **Install a Library for .env File Parsing**:
 ```bash
