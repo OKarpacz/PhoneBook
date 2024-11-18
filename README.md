@@ -29,6 +29,7 @@
 - "What is the phone number for Joanna?"
 - "Show me my contact list."
 - "Edit John phone number to 987654321."
+- "Delete John"
 
 ## Installation
 
