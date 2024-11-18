@@ -46,7 +46,7 @@
    ```bash
    dotnet run --project PhoneBook
 
-## Disclaimer!
+## Disclaimer
 
 There is a possibility that you need to create your own .env file for the application to work.
 
