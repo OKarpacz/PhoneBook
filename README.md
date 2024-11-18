@@ -38,14 +38,14 @@
 2. **Restore dependencies**:
    ```bash
    dotnet restore
-3. ** Build the project**:
+3. **Build the project**:
    ```bash
    dotnet build
 4. **Run the application**:
    ```bash
    dotnet run --project PhoneBook
 
-**Disclaimer**
+**Disclaimer!**:
 There is a possibility that you need to create your own .env file for the application to work.
 ```bash
 OPENAI_API_KEY="your-secret-api-key"
