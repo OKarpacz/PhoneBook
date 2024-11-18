@@ -47,6 +47,11 @@
 
 **Disclaimer!**:
 There is a possibility that you need to create your own .env file for the application to work.
+1. install a Library for .env File Parsing
+```bash
+dotnet add package dotenv.net
+```
+2. Change the OPENAI_API_KEY variable to your api key.
 ```bash
 OPENAI_API_KEY="your-secret-api-key"
 ```
