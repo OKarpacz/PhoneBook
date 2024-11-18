@@ -35,7 +35,7 @@ public class ChatController : ControllerBase
             return BadRequest("Prompt cannot be empty.");
         }
 
-        var structuredPrompt = $"{prompt}\nPlease respond with: Name: [name], Phone: [phone] if adding or editing.";
+        var structuredPrompt = $"{prompt}\nPlease respond with: Name: [name], Phone: [phone] if adding, editing, deleting and finding a contact, or 'No Phone' if not adding, editing, deleting and finding a contact.";
         Console.WriteLine($"Structured Prompt Sent: {structuredPrompt}");
         
         var response = await _openAiService.GetResponseFromLLM(structuredPrompt);
@@ -106,8 +106,8 @@ public class ChatController : ControllerBase
             return Ok($"The phone number for {contact.Name} is {contact.PhoneNumber}.");
         }
         
-        Console.WriteLine($"Contact '{nameToFind}' was not found.");
-        return NotFound($"Contact '{nameToFind}' was not found.");
+        Console.WriteLine($"Contact {nameToFind} was not found.");
+        return NotFound($"Contact {nameToFind} was not found.");
     }
 
     
@@ -133,11 +133,11 @@ public class ChatController : ControllerBase
             _context.Contacts.Remove(contact);
             _context.SaveChanges();
             Console.WriteLine($"Contact '{nameToDelete}' was successfully deleted.");
-            return Ok($"Contact '{nameToDelete}' was deleted.");
+            return Ok($"Contact {nameToDelete} was deleted.");
         }
     
         Console.WriteLine($"Contact '{nameToDelete}' was not found in the database.");
-        return NotFound($"Contact '{nameToDelete}' was not found.");
+        return NotFound($"Contact {nameToDelete} was not found.");
     }
 
 
@@ -191,11 +191,11 @@ public class ChatController : ControllerBase
             await _context.SaveChangesAsync();
 
             Console.WriteLine($"Contact '{name}' updated with new phone number {phone}.");
-            return Ok($"Contact '{name}' updated with new phone number {phone}.");
+            return Ok($"Contact {name} updated with new phone number {phone}.");
         }
     
         Console.WriteLine($"Contact '{name}' was not found.");
-        return NotFound($"Contact '{name}' was not found.");
+        return NotFound($"Contact {name} was not found.");
     }
     private async Task<IActionResult> GetAllContacts()
     {

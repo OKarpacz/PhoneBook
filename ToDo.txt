@@ -1,1 +1,2 @@
 #Dodanie favicon#
+#Usuniecie rzeczy z bazy danych#

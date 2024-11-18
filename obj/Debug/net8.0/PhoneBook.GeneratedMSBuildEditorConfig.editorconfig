@@ -17,15 +17,15 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PhoneBook
 build_property.RootNamespace = PhoneBook
-build_property.ProjectDir = C:\Users\olgie\RiderProjects\PhoneBook\
+build_property.ProjectDir = C:\Users\User\RiderProjects\PhoneBook\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\olgie\RiderProjects\PhoneBook
+build_property.MSBuildProjectDirectory = C:\Users\User\RiderProjects\PhoneBook
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/olgie/RiderProjects/PhoneBook/Pages/Index.cshtml]
+[C:/Users/User/RiderProjects/PhoneBook/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

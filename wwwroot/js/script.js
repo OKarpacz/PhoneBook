@@ -21,6 +21,7 @@ document.getElementById('submitCommand').addEventListener('click', async () => {
     } else {
         addMessageToChat(result, "ai");
     }
+    commandInput.value = '';
 });
 
 function formatContacts(contactData) {
@@ -47,16 +48,6 @@ function addMessageToChat(message, sender) {
     }
 
     chatBox.appendChild(bubble);
-    chatBox.scrollTop = chatBox.scrollHeight;
-}
-
-function addChatBubble(message, sender) {
-    const chatBox = document.getElementById("chatBox");
-    const bubble = document.createElement("div");
-    bubble.classList.add("chat-bubble", sender);
-    bubble.textContent = message;
-    chatBox.appendChild(bubble);
-
     chatBox.scrollTop = chatBox.scrollHeight;
 }
 
