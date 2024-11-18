@@ -45,5 +45,10 @@
    ```bash
    dotnet run --project PhoneBook
 
+**Disclaimer**
+There is a possibility that you need to create your own .env file for the application to work.
+```bash
+OPENAI_API_KEY="your-secret-api-key"
+```
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this application.
