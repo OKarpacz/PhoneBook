@@ -1,11 +1,12 @@
-# PhoneBook AI
+# PhoneBook AI 📞
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Key Features](#key-features)
 3. [Example Prompts](#example-prompts)
 4. [Installation](#installation)
-5. [License](#license)
+5. [Disclaimer](#disclaimer)
+6. [License](#license)
 
 ---
 
@@ -33,7 +34,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/PhoneBook.git
+   git clone https://github.com/OKarpacz/PhoneBook.git
    cd PhoneBook
 2. **Restore dependencies**:
    ```bash
@@ -45,8 +46,10 @@
    ```bash
    dotnet run --project PhoneBook
 
-**Disclaimer!**:
+## Disclaimer!
+
 There is a possibility that you need to create your own .env file for the application to work.
+
 1. **Install a Library for .env File Parsing**:
 ```bash
 dotnet add package dotenv.net
