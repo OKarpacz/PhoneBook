@@ -1,1 +1,2 @@
 #Dodanie favicon#
+#Deployment on AWS#
