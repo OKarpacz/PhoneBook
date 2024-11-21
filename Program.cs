@@ -10,6 +10,7 @@ builder.Services.AddDbContext<PhoneBookContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<ContactService>();
 builder.Services.AddHttpClient<OpenAiService>();
+builder.Services.AddScoped<ChatService>();
 
 
 var app = builder.Build();
